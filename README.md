@@ -24,4 +24,4 @@ The **Campus Cafe System** is designed to manage customer orders, menu items (`B
 3. Compile and run **`CafeApp.java`**.
 
 ---
-<p align="center">Developed with ☕ and Java by <b>Christoff Allen B. Jumapit</b></p>
+<p align="center">Developed with ☕ and Java by <b>Christoff Allen B. Jumapit and Lenny Devibar</b></p>
