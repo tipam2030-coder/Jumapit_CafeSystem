@@ -25,8 +25,8 @@ public class Meal extends MenuItem {
      */
     public Meal() {
         super();
-        this.upsized = false;
-        this.extraSides = 0;
+       upsized = false;
+       extraSides = 0;
     }
 
     /**
@@ -40,9 +40,10 @@ public class Meal extends MenuItem {
      */
     public Meal(String name, double basePrice, String itemCode, boolean upsized, int extraSides) {
         super(name, basePrice, itemCode);
-        this.upsized = upsized;
+
+        setUpsized(upsized);
         // Use the setter so a negative number of sides is rejected
-        this.extraSides = 0;
+        setExtraSides(0);
         setExtraSides(extraSides);
     }
 
