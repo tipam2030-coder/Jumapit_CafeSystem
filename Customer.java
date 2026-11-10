@@ -23,6 +23,7 @@ public class Customer {
      * Creates a customer with default values.
      * The name is "Guest", the customer is not a student, and the points are 0.
      */
+
     public Customer() {
         this("Guest", false);
     }
