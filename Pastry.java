@@ -5,6 +5,7 @@
  * @author Christoff Allen B. Jumapit
  * @version 1.0
  */
+
 public class Pastry extends MenuItem {
 
     /** Extra fee in pesos for warming the pastry. */
@@ -19,7 +20,7 @@ public class Pastry extends MenuItem {
      */
     public Pastry() {
         super();
-        this.warmed = false;
+        warmed = false;
     }
 
     /**
@@ -32,7 +33,7 @@ public class Pastry extends MenuItem {
      */
     public Pastry(String name, double basePrice, String itemCode, boolean warmed) {
         super(name, basePrice, itemCode);
-        this.warmed = warmed;
+        setWarmed(warmed);
     }
 
     /**
