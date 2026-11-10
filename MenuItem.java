@@ -21,9 +21,9 @@ public abstract class MenuItem {
      * Name is "Unnamed Item", base price is 0.0, and item code is "N/A".
      */
     public MenuItem() {
-        this.name = "Unnamed Item";
-        this.basePrice = 0.0;
-        this.itemCode = "N/A";
+        name = "Unnamed Item";
+        basePrice = 0.0;
+        itemCode = "N/A";
     }
 
     /**
@@ -34,8 +34,9 @@ public abstract class MenuItem {
      * @param itemCode  the code of the item
      */
     public MenuItem(String name, double basePrice, String itemCode) {
-        this.name = name;
-        this.itemCode = itemCode;
+        setName(name);
+        setItemCode(itemCode);
+
         // Use the setter so a negative price is rejected (price stays 0.0)
         this.basePrice = 0.0;
         setBasePrice(basePrice);
