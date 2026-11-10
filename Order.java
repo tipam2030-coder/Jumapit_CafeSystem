@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 /**
  * Connects one Customer to up to three MenuItem objects.
  * The items are stored in three separate fields (no arrays or collections).
@@ -113,6 +115,7 @@ public class Order {
      * @param voucher the voucher amount in pesos
      * @return the total in pesos
      */
+
     public double computeTotal(double voucher) {
         double total = computeTotal() - voucher;
         // The total can never be less than 0
@@ -127,6 +130,7 @@ public class Order {
      * Prints the receipt of this order without a voucher.
      * The customer's loyalty points are updated.
      */
+
     public void printReceipt() {
         printReceipt(0);
     }
@@ -139,6 +143,7 @@ public class Order {
      * @param voucher the voucher amount in pesos (0 if there is no voucher)
      */
     public void printReceipt(double voucher) {
+
         // Add the student label to the header only for students
         if (customer.isStudent()) {
             System.out.println("Order #" + orderId + " - " + customer.getName() + " (Student)");
@@ -156,6 +161,8 @@ public class Order {
         if (item3 != null) {
             printItemLine(item3);
         }
+
+
 
         double subtotal = computeSubtotal();
         System.out.println(String.format("  Subtotal: %.2f", subtotal));
