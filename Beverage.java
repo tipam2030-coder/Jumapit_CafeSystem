@@ -16,7 +16,8 @@ public class Beverage extends MenuItem {
      */
     public Beverage() {
         super();
-        this.size = "S";
+
+        size = "S";
     }
 
     /**
@@ -30,7 +31,7 @@ public class Beverage extends MenuItem {
     public Beverage(String name, double basePrice, String itemCode, String size) {
         super(name, basePrice, itemCode);
         // Start with "S", then let the setter check the given size
-        this.size = "S";
+        setSize("S");
         setSize(size);
     }
 
