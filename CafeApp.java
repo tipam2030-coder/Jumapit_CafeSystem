@@ -2,7 +2,7 @@
  * Main class of the campus cafe ordering system.
  * It creates customers, menu items, and orders, then prints two receipts.
  *
- * @author Christoff Allen B. Jumapit
+ * @author Christoff Allen B. Jumapit and Lenny Devibar
  * @version 1.0
  */
 public class CafeApp {
