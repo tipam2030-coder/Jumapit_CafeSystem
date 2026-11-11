@@ -1,31 +1,27 @@
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/mag-cover?username=torvalds&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F1024025%3Fv%3D4&mode=light" />
-  <img src="https://www.gitskins.com/api/section/mag-cover?username=torvalds&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F1024025%3Fv%3D4&mode=dark" width="100%" alt="Linus Torvalds: Backend or systems engineer" />
-</picture>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=650&height=50&lines=Hi+Sir+Junz+!+Welcome+to+my+Repository;Campus+Cafe+Ordering+System" alt="Typing Animation" />
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/mag-shelf?username=torvalds&mode=light" />
-  <img src="https://www.gitskins.com/api/section/mag-shelf?username=torvalds&mode=dark" width="100%" alt="Things I built" />
-</picture>
+<br>
 
-<a href="https://github.com/torvalds/linux"><picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/mag-case?username=torvalds&i=0&r=linux&mode=light" />
-  <img src="https://www.gitskins.com/api/section/mag-case?username=torvalds&i=0&r=linux&mode=dark" width="100%" alt="linux: Linux kernel source tree" />
-</picture></a>
-<a href="https://github.com/torvalds/GuitarPedal"><picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/mag-case?username=torvalds&i=1&r=GuitarPedal&mode=light" />
-  <img src="https://www.gitskins.com/api/section/mag-case?username=torvalds&i=1&r=GuitarPedal&mode=dark" width="100%" alt="GuitarPedal: Linus learns analog circuits" />
-</picture></a>
-<a href="https://github.com/torvalds/uemacs"><picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/mag-case?username=torvalds&i=2&r=uemacs&mode=light" />
-  <img src="https://www.gitskins.com/api/section/mag-case?username=torvalds&i=2&r=uemacs&mode=dark" width="100%" alt="uemacs: Random version of microemacs with my private modificatons" />
-</picture></a>
+<p align="center">
+  <b>A console-based Java application implementing Object-Oriented Programming (OOP) principles, inheritance, validation logic, and precise receipt generation.</b>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/mag-langs?username=torvalds&mode=light" />
-  <img src="https://www.gitskins.com/api/section/mag-langs?username=torvalds&mode=dark" width="100%" alt="Most used: C 98%, Assembly 1%, Rust 0%, Shell 0%" />
-</picture>
+---
 
-**Elsewhere:** <a href="https://github.com/torvalds">GitHub</a>
+## ☕ About The Project
+The **Campus Cafe System** is designed to manage customer orders, menu items (`Beverage`, `Pastry`, `Meal`), item validations, pricing rules, student discounts, vouchers, and loyalty points. It ensures precise console output formatting matching the laboratory requirements.
 
-<sub>Magazine · made with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub>
+## 🛠️ Features & Architecture
+* **Inheritance & Polymorphism:** Utilizes a base `MenuItem` class extended by specialized subclasses (`Beverage`, `Pastry`, and `Meal`).
+* **Robust Validation:** Setters and methods enforce data integrity (e.g., handling item limits, preventing negative prices).
+* **Dynamic Receipt Formatting:** Automatically handles order limits (`"Order is full"` messaging positioned correctly before subtotal calculations), student discounts, and loyalty tracking.
+
+## 🚀 How to Run
+1. Clone or download the repository.
+2. Open the project in your preferred Java IDE (such as IntelliJ IDEA or Eclipse).
+3. Compile and run **`CafeApp.java`**.
+
+---
+<p align="center">Developed with ☕ and Java by <b>Christoff Allen B. Jumapit</b></p>
