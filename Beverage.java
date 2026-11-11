@@ -2,7 +2,7 @@
  * Represents a drink sold at the campus cafe.
  * The price depends on the selected size (S, M, or L).
  *
- * @author Christoff Allen B. Jumapit
+ * @author Christoff Allen B. Jumapit and Lenny Devibar
  * @version 1.0
  */
 public class Beverage extends MenuItem {
