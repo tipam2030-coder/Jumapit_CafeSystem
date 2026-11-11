@@ -2,7 +2,7 @@
  * Represents the person placing an order at the campus cafe.
  * A customer can be a student and earns loyalty points for purchases.
  *
- * @author Christoff Allen B. Jumapit
+ * @author Christoff Allen B. Jumapit and Lenny Devibar
  * @version 1.0
  */
 public class Customer {
