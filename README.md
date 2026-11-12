@@ -10,7 +10,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Java-6DB33F?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Badge" />
-  <img src="https://img.shields.io/badge/Ecosystem-Spring_Boot_Style-32CD32?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot Green Badge" />
   <img src="https://img.shields.io/badge/Data_Structure-Fixed_Composition-2E8B57?style=for-the-badge" alt="Data Structure Badge" />
   <img src="https://img.shields.io/badge/IDE-IntelliJ_IDEA-006400?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ Badge" />
 </p>
